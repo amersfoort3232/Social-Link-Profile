@@ -24,7 +24,7 @@ Social links profile challenges from Frontend Mentor using Plain CSS.
 
 ### Screenshot
 
-(./assets/screenshot.png)
+!(./assets/screenshot.png)
 
 ### Links
 
