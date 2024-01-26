@@ -24,7 +24,7 @@ Social links profile challenges from Frontend Mentor using Plain CSS.
 
 ### Screenshot
 
-!(./assets/screenshot.png)
+![sample screenshot](./assets/screenshot.png)
 
 ### Links
 
@@ -62,10 +62,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [resource 1](https://fedmentor.dev/posts/font-size-px/) - This helped me for learning why not to you px, but rem instead.
+- [Why rem over px?](https://fedmentor.dev/posts/font-size-px/) - This helped me for learning why not to you px, but rem instead.
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/amersfoort3232)
+- Frontend Mentor - [@amersfoort3232](https://www.frontendmentor.io/profile/amersfoort3232)
 
