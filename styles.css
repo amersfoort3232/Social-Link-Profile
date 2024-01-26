@@ -6,31 +6,25 @@ body {
   justify-content: center;
   background-color: #000000;
   font-family: "Inter", sans-serif;  
-  height: 100vh;
-  width: 100vw;
-}
-.container {
-
 }
 
 .profile-card {
   background-color: #1F1F1F;
   display: flex;
-  width: 376px;
-  padding: 40px;
   flex-direction: column;
+  gap:0.5rem;
   align-items: center;
-
+  margin:1rem;
   flex-shrink: 0;
   word-wrap: break-word;
   border-radius: 12px;
 }
 
 .name, .address, .description {
-  margin: 12px 0 12px 0;
+  margin: 0rem 1.5rem 0rem 1.5rem;
   text-align: center;
   color: white;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 600;
   line-height: 36px;
 }
@@ -38,14 +32,13 @@ body {
 .address, .description  {
   text-align: center;
   color: #c4f82a;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 700;
   line-height: 21px;
 }
 
 .description 
 {
-  width: 304px;
   color: white;
   font-weight: 400;
 }
@@ -53,9 +46,6 @@ body {
 ul {
   list-style: none;
   padding: 0;
-  display: inline-flex;
-  flex-direction: column;
-  
 }
 
 li{
@@ -64,24 +54,26 @@ li{
   justify-content: center;
   align-items: center;
   align-self: stretch;
+  gap:4rem;
 }
 
-button{
+li>a{
+  text-align: center;
+  min-width: 16rem;
   display: block;
-  width: 296px;
-  padding:12px ;
-  margin: 16px auto;
-  font-size: 14px;
+  padding:0.5rem;
+  font-size: 1em;
   font-style: normal;
   font-weight: 700;
   line-height: 150%;
   align-self: stretch;
   background-color: grey;
   color:white;
-  border-radius: 8px;
+  border-radius: 0.5rem;
+  text-decoration: none;
 }
 
-button:hover{
+a:hover{
   background-color: #c4f82a;
   color: grey;
 }
@@ -90,4 +82,9 @@ img{
   width: 88px;
   height: 88px;
   border-radius: 999px;
+}
+
+footer{
+  color: white;
+  text-align: center;
 }
